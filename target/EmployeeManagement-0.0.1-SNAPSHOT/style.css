@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+.bgImg{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), 
+	url("resources/w1.jpg");	
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	min-height: 100vh;
+}
+
+.headline{
+	font-size: 2rem;
+	font-family: fantasy;
+	font-stretch: wider;
+	font-style: inherit;
+}
+
+.sub-heading{
+	font-family: sans-serif;
+	font-stretch: wider;
+	font-style: inherit;
+}
+
+.model-bg{
+	background: transparent;
+background: linear-gradient(324deg, rgba(0,0,1,0.8365721288515406) 35%, rgba(3,13,56,0.7609418767507002) 100%);
+}
+
+
+
+
+
+
+
+
+
