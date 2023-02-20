@@ -1,4 +1,5 @@
-This is database structure...
+This is database structure
+
 CREATE DATABASE employee;
 
 CREATE TABLE emp_details (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,empName VARCHAR(55) 
