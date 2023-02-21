@@ -8,7 +8,7 @@ public class DBConnection {
 	
 	public static Connection getConnection() throws Throwable {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		String url = "jdbc:mysql://localhost:3306/employee";
+		String url = "jdbc:mysql://employeemanagement.chaoxykw4k0s.ap-south-1.rds.amazonaws.com:3306/employee";
 		String username = "root";
 		String password = "root";
 		conn = DriverManager.getConnection(url,username,password);
