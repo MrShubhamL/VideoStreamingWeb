@@ -10,7 +10,7 @@ public class DBConnection {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		String url = "jdbc:mysql://employeemanagement.chaoxykw4k0s.ap-south-1.rds.amazonaws.com:3306/employee";
 		String username = "root";
-		String password = "root";
+		String password = "rootroot";
 		conn = DriverManager.getConnection(url,username,password);
 		return conn;
 	}
